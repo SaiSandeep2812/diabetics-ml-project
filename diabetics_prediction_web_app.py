@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/Sandeep/Desktop/Projects/machine learning projects/diabetics prediction - svm/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 def diabetic_prediction(inputx):
     input_ = np.asarray(inputx)
